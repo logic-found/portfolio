@@ -1,0 +1,14 @@
+.projectCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+
+    // @media (max-width: 768px) {
+    //     gap: 16px;
+    // }
+    // @media (max-width: 768px) {
+    //     gap: 10px;
+    // }
+}

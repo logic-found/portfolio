@@ -1,0 +1,217 @@
+.heroContainer{
+  //height: fit-content;
+    //min-height: calc(100vh - 70px);
+    width: 100vw;
+    background: var(--card_light);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 80px 40px;
+    padding-top: 200px;                 //padding top also given as inline css in jsx file
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+
+    @media (max-width: 900px) {
+      min-height: fit-content;
+      padding: 60px 16px;
+    }
+    @media (max-width: 640px) {
+      min-height: fit-content;
+      padding: 30px 16px;
+    }
+
+    .heroBg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        top: 50%;
+        left: 47%;
+        // bottom: 0;
+        // right: 0;
+        max-width: 1360px;
+        overflow: hidden;
+        padding: 0 30px;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+      
+        @media (max-width: 960px) {
+          justify-content: center;
+          padding: 0 0px;
+          top:60%;
+          left:55%;
+          scale: (1.1);
+        }
+      
+    }
+
+    .heroInnerContainer{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        max-width: 1100px;
+      
+        @media (max-width: 960px) {
+          flex-direction: column;
+        }
+
+        .heroLeftContainer{
+            width: 100%;
+            
+            // order: 1;
+            @media (max-width: 960px) {
+              order: 2;
+              margin-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            } 
+            
+            .heroTitle{
+                font-size: 50px;
+                line-height: 68px;
+                font-weight: 700;
+                color: var(--text_primary);
+
+                @media (max-width: 960px) {
+                  text-align: center;
+                }
+
+                @media (max-width: 640px) {
+                  font-size: 40px;
+                  line-height: 48px;
+                  //margin-bottom: 8px;
+                }
+                @media (max-width: 300px) {
+                  font-size: 30px;
+                  line-height: 35px;
+                } 
+            }
+            .textLoop{
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 68px;
+                display: flex;
+                gap: 12px;
+                color: var(--text_primary);
+                @media (max-width: 960px) {
+                  text-align: center;
+                }
+                @media (max-width: 640px) {
+                  font-size: 22px;
+                  line-height: 48px;
+                  //margin-bottom: 16px;
+                }
+                @media (max-width: 300px) {
+                  font-size: 20px;
+                  line-height: 48px;
+                  flex-direction: column;
+                  gap:0
+                }
+                
+
+                span{
+                    color: var(--primary);
+                } 
+            }
+            .heroSubTitle{
+                font-size: 20px;
+                line-height: 32px;
+                margin-bottom: 42px;
+                color: var(--text_secondary);
+                
+        
+                @media (max-width: 960px) {
+                  text-align: center;
+                }
+              
+                @media (max-width: 640px) {
+                  font-size: 16px;
+                  line-height: 32px;
+                }
+            }
+
+            .resumeButton{
+                text-decoration: none;
+                width: 95%;
+                max-width: 300px;
+                text-align: center;
+                padding: 16px 50px;
+                color: var(--white);
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 600;
+                transition: all 0.2s ease;
+                background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+                box-shadow:  20px 20px 60px #1F2634,
+                -20px -20px 60px #1F2634;
+                border: none;
+                &:hover {
+                    //padding: 20px 60px;
+                    transform: scale(1.05);
+                    transition: all 0.5s ease;
+                    box-shadow:  20px 20px 60px #1F2634;
+                    filter: brightness(1);
+                }    
+                
+                
+                @media (max-width: 640px) {
+                    padding: 12px 25px;
+                    font-size: 18px;
+                } 
+            
+            }
+        }
+
+        .heroRightContainer{
+            
+            width: 100%;
+            display: flex;
+            //order: 2;
+            justify-content: center;
+            gap: 12px;
+
+            @media (max-width: 960px) {
+              order: 1;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 80px;
+            }
+          
+            @media (max-width: 640px) {
+              margin-bottom: 30px;
+            }
+
+            .heroImg{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                max-width: 400px;
+                max-height: 400px;
+                border-radius: 50%;
+                border: 2px solid var(--primary);
+              
+                @media (max-width: 768px) {
+                  max-width: 400px;
+                  max-height: 400px;
+                }
+              
+                @media (max-width: 640px) {
+                  max-width: 280px;
+                  max-height: 280px;
+                }
+              
+            }
+          
+        }
+
+
+    }
+
+    
+}
