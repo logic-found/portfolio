@@ -7,7 +7,7 @@ export const Bio = {
     ],
     description: "",
     github: "https://github.com/logic-found",
-    resume : "https://drive.google.com/file/d/13DCfPI-09Cd6-65F9yDeFVn1Abo4Pt1O/view",
+    resume : "https://drive.google.com/file/d/12LAzWOlFI6Oyl4ZY9kHAX3OF7VpHFDSD/view?usp=drive_link",
     linkedin : "https://www.linkedin.com/in/rashika-sahu-a28167211/",
     leetcode : "https://leetcode.com/logic_found/",
     twitter : "https://twitter.com/_rashikasahu"
