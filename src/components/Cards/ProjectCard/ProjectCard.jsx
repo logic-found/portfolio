@@ -26,13 +26,13 @@ const ProjectCard = ({ project, setOpenProjectDetails }) => {
           onClick={() => window.open(project.github)}
           className="projectCardBtn viewCode"
         >
-          View Code
+          Source Code
         </button>
         <button
           onClick={() => window.open(project.webapp)}
           className="projectCardBtn viewApp"
         >
-          View Live App
+          Live App
         </button>
       </div>
     </div>

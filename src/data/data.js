@@ -61,7 +61,7 @@ export const skills = [
         ]
     },
     {
-      title: "Frontend & Backend",
+      title: "Frontend",
       skills: [
         {
           name: "React",
@@ -102,39 +102,29 @@ export const skills = [
           image:
             "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
         },
+      ],
+    },
+    {
+      title: "Backend",
+      skills: [
         {
-                  name: "Socket.io",
-                  image: "https://imgs.search.brave.com/2OIInnr08KdHWcun9suYaXFnIYSv6VYc1KuKDZCiVeM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9zb2NrZXQtaW8u/c3Zn.svg"
+            name: "Socket.io",
+            image: "https://imgs.search.brave.com/2OIInnr08KdHWcun9suYaXFnIYSv6VYc1KuKDZCiVeM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9zb2NrZXQtaW8u/c3Zn.svg"
+        },
+        {
+          name: "Node.js",
+          image: "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+        },
+        {
+          name: "Express.js",
+          image: "https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg"
+        },
+        {
+          name: "MongoDB",
+          image: "https://imgs.search.brave.com/9vbh-e7qXbDyHcE73vCQ_klWGRpBEeNu4wY-2k5C_4w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2Rl/dmljb25zL2Rldmlj/b24vbWFzdGVyL2lj/b25zL21vbmdvZGIv/bW9uZ29kYi1vcmln/aW5hbC5zdmc.svg",
         },
       ],
     },
-    // {
-    //   title: "Backend",
-    //   skills: [
-    //     {
-    //         name: "Socket.io",
-    //         image: "https://imgs.search.brave.com/2OIInnr08KdHWcun9suYaXFnIYSv6VYc1KuKDZCiVeM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9zb2NrZXQtaW8u/c3Zn.svg"
-    //     },
-    //     // {
-    //     //   name: "Node Js",
-    //     //   image: "https://nodejs.org/static/images/logo.svg",
-    //     // },
-    //     // {
-    //     //   name: "Express Js",
-    //     //   image:
-    //     //     "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
-    //     // },
-    //     // {
-    //     //   name: "MongoDB",
-    //     //   image:
-    //     //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-    //     // },
-    //     // {
-    //     //   name: "Firebase",
-    //     //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-    //     // },
-    //   ],
-    // },
     {
       title: "Others",
       skills: [
@@ -197,6 +187,7 @@ export const experiences = [
       "Portainer",
       "Linux",
       "Maven",
+      "Tomcat"
     ],
   },
 ]
@@ -254,6 +245,7 @@ export const projects = [
       "https://user-images.githubusercontent.com/93260606/279434813-ec3232d4-2aa6-4c6a-8e38-a488b4f40738.png",
     tags: [
       "JavaScript",
+      "Axios",
       "HTML",
       "Sass",
     ],
@@ -280,7 +272,7 @@ export const education = [
     school: "Sunbeam College, Varanasi, Uttar Pradesh",
     date: "Jul 2018 - Sep 2021",
     grade: "74%",
-    desc: "I completed my Bachelor's degree in Computer Application from Sunbeam College Varanasi. Where I was engaged with multiple extra curriculum activities like dance, music and participated in various contests.",
+    desc: "I completed my Bachelor's degree in Computer Application from Sunbeam College Varanasi. Where I was engaged with coursework and multiple extra curriculum activities",
     degree: "Bachelor of Computer Applications",
   },
 ];
