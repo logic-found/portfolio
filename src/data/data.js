@@ -108,10 +108,6 @@ export const skills = [
       title: "Backend",
       skills: [
         {
-            name: "Socket.io",
-            image: "https://imgs.search.brave.com/2OIInnr08KdHWcun9suYaXFnIYSv6VYc1KuKDZCiVeM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9zb2NrZXQtaW8u/c3Zn.svg"
-        },
-        {
           name: "Node.js",
           image: "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
         },
@@ -122,6 +118,10 @@ export const skills = [
         {
           name: "MongoDB",
           image: "https://imgs.search.brave.com/9vbh-e7qXbDyHcE73vCQ_klWGRpBEeNu4wY-2k5C_4w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2Rl/dmljb25zL2Rldmlj/b24vbWFzdGVyL2lj/b25zL21vbmdvZGIv/bW9uZ29kYi1vcmln/aW5hbC5zdmc.svg",
+        },
+        {
+            name: "Socket.io",
+            image: "https://imgs.search.brave.com/2OIInnr08KdHWcun9suYaXFnIYSv6VYc1KuKDZCiVeM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9zb2NrZXQtaW8u/c3Zn.svg"
         },
       ],
     },
@@ -196,6 +196,27 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "SimpleNote",
+    date: "Oct 2023 - Nov 2023",
+    description:
+      "A MERN-based notes web app that has the functionality to Login & register users with JWT for authentication, Bcrypt is used for password hashing. Allows user to perform all CRUD operations to Create, Update & Delete their notes. The app features a responsive UI for a seamless user experience across all devices.",
+    image:
+      "https://user-images.githubusercontent.com/93260606/284087118-d8a94c1f-f2ac-4410-8075-b2f04006c798.png",
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "React",
+      "Mongoose",
+      "Redux",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/SimpleNote",
+    webapp: "https://notes-app-frontend-six.vercel.app",
+  },
+  {
+    id: 1,
     title: "Moviex",
     date: "Sep 2023 - Sep 2023",
     description:
@@ -215,7 +236,7 @@ export const projects = [
     webapp: "https://moviex-sand.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Real-Time Code Editor",
     date: "Mar 2023 - May 2023",
     description:
@@ -236,8 +257,8 @@ export const projects = [
     webapp: "https://real-time-code-editor-lac.vercel.app/",
   },
   {
-    id: 2,
-    title: "Weather App",
+    id: 3,
+    title: "OverCast",
     date: "Jul 2023 - Jul 2023",
     description:
       "A web application that showcases the weather of a particular city entered by the user, made responsive user interface for seamless experience across all devices.",
