@@ -169,7 +169,7 @@ export const experiences = [
   {
     id: 0,
     image: "https://imgs.search.brave.com/fyenv5op-68pvTW55lyt6QiNXeiJrngYKPtSqS3K37M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMua3VudW51LmNv/bS9tZWRpYS9wcm9k/L3Byb2ZpbGVzL2xv/Z29zL2I5ODY0ZDdm/LWZiMTItNDU2NC1i/OTBlLTdkZDViNjQy/MTMwYl8xXzY0ZGM4/NWMwZTliNzMuZ2lm.gif",
-    role: "DevOps Trainee",
+    role: "Associate Software Engineer Trainee",
     company: "Nagarro",
     date: "Mar 2023 - Present",
     desc: "As a DevOps trainee, I am actively engaged with various CI/CD tools and cloud platforms, leverging my knowledge to optimize software development and deployment processes. Through hands-on knowlegde in DevOps tools, I contribute to create effective workflows, ensuring seamless integration between devlopment and operations.",
