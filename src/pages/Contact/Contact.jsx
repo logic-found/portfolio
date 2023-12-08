@@ -44,24 +44,28 @@ const Contact = () => {
             placeholder="Your Name"
             name="user_name"
             className="contactInput"
+            required
           />
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
             name="user_email"
             className="contactInput"
+            required
           />
           <input
             type="text"
             placeholder="Subject"
             name="subject"
             className="contactInput"
+            required
           />
           <textarea
             placeholder="Message"
             name="message"
             className="contactInput"
             rows={3}
+            required
           />
           <button className="contactSubmitBtn">Send</button>
         </form>
