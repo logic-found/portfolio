@@ -1,8 +1,8 @@
 export const Bio = {
     name : "Rashika Sahu",
     roles : [
+        "Full Stack Developer",
         "DevOps Engineer",
-        "Web Developer",
         "Programmer"
     ],
     description: "",
@@ -181,7 +181,6 @@ export const experiences = [
       "GitHub Actions",
       "Terraform",
       "SonarQube",
-      "SonarCloud",
       "Artifactory",
       "Linux"
     ],
