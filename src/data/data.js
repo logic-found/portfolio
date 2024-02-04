@@ -16,51 +16,6 @@ export const Bio = {
 
 export const skills = [
     {
-        title: "DevOps",
-        skills: [
-            {
-                name: "Docker",
-                image: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
-            },
-            {
-                name: "Kubernetes",
-                image: "https://imgs.search.brave.com/sUr__mxxEq0S8UI8mqveQrlJESNylliGdPYU3feFdsY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzM5L0t1YmVybmV0/ZXNfbG9nb193aXRo/b3V0X3dvcmttYXJr/LnN2Zw.svg"
-            },
-            {
-                name: "Microsoft Azure",
-                image: "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png"
-            },
-            {
-              name: "Jenkins",
-              image: "https://imgs.search.brave.com/GJT8RT3i4ri73aYJTWykQfinOV1GGMo0GDD0CYmcQXo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/OTkvUE5HLzUxMi9q/ZW5raW5zX2xvZ29f/aWNvbl8xNzA1NTIu/cG5n"
-            },
-            {
-              name: "Azure DevOps",
-              image: "https://imgs.search.brave.com/PSOmqzmK9ErXLqOi92d3ipIxpGXnW_eC-UvT5Nt41gA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xNDk3/NjU4NjEudjIucHJl/c3NhYmxlY2RuLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMS9kZXZvcHMu/cG5n"
-            },
-            {
-              name: "GitHub Actions",
-              image: "https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
-            },
-            {
-                name: "Terraform",
-                image: "https://imgs.search.brave.com/_9RSm4jH1pYRAk0gfv8X_WLxRHXHmOBDTIuOpquzcFs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy90ZXJyYWZvcm0t/aWNvbi5zdmc.svg"
-            },
-            {
-              name: "SonarQube",
-              image: "https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg"
-            },
-            {
-              name: "SonarCloud",
-              image: "https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png"
-            },
-            {
-              name: "jFrog Artifactory",
-              image: "https://imgs.search.brave.com/0G9Ui6M3DlySxUsumAXwOPIX3N7z7v1agHx0iyh9hUM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzg0ODgyOS5wbmc"
-            },
-        ]
-    },
-    {
       title: "Frontend",
       skills: [
         {
@@ -72,6 +27,21 @@ export const skills = [
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "Material UI",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+        },
+        {
+          name: "Tailwind CSS",
+          image:
+            "https://imgs.search.brave.com/v1smxwS4SEBsJ8E3gG5MYjCLSo2e0vEYGKUe6es7SyA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/d2lrLmNvbS9jb250/ZW50L3VwbG9hZHMv/aW1hZ2VzL3RhaWx3/aW5kLWNzczMyMzIu/bG9nb3dpay5jb20u/d2VicA"
         },
         {
           name: "HTML",
@@ -86,21 +56,6 @@ export const skills = [
           name: "Sass",
           image:
             "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-          name: "Bootstrap",
-          image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-        },
-        {
-          name: "Material UI",
-          image:
-            "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
         },
       ],
     },
@@ -126,12 +81,71 @@ export const skills = [
       ],
     },
     {
+      title: "DevOps",
+      skills: [
+          {
+              name: "AWS",
+              image: "https://imgs.search.brave.com/7oeGsrL4dvFxaJETcut1tqHxgfsoiZvN7amgrq7hCUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDgvQW1hem9uLVdl/Yi1TZXJ2aWNlcy1B/V1MtTG9nby03MDB4/Mzk0LnBuZw"
+          },
+          {
+            name: "Microsoft Azure",
+            image: "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png"
+          },
+          {
+              name: "Docker",
+              image: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
+          },
+          {
+              name: "Kubernetes",
+              image: "https://imgs.search.brave.com/sUr__mxxEq0S8UI8mqveQrlJESNylliGdPYU3feFdsY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzM5L0t1YmVybmV0/ZXNfbG9nb193aXRo/b3V0X3dvcmttYXJr/LnN2Zw.svg"
+          },
+          
+          {
+            name: "Jenkins",
+            image: "https://imgs.search.brave.com/GJT8RT3i4ri73aYJTWykQfinOV1GGMo0GDD0CYmcQXo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/OTkvUE5HLzUxMi9q/ZW5raW5zX2xvZ29f/aWNvbl8xNzA1NTIu/cG5n"
+          },
+          {
+            name: "Azure DevOps",
+            image: "https://imgs.search.brave.com/PSOmqzmK9ErXLqOi92d3ipIxpGXnW_eC-UvT5Nt41gA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xNDk3/NjU4NjEudjIucHJl/c3NhYmxlY2RuLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMS9kZXZvcHMu/cG5n"
+          },
+          {
+            name: "GitHub Actions",
+            image: "https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
+          },
+          {
+              name: "Terraform",
+              image: "https://imgs.search.brave.com/_9RSm4jH1pYRAk0gfv8X_WLxRHXHmOBDTIuOpquzcFs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy90ZXJyYWZvcm0t/aWNvbi5zdmc.svg"
+          },
+          {
+            name: "SonarQube",
+            image: "https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg"
+          },
+          {
+            name: "SonarCloud",
+            image: "https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png"
+          },
+          {
+            name: "jFrog Artifactory",
+            image: "https://imgs.search.brave.com/0G9Ui6M3DlySxUsumAXwOPIX3N7z7v1agHx0iyh9hUM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzg0ODgyOS5wbmc"
+          },
+      ]
+  },
+    {
       title: "Others",
       skills: [
         {
+          name: "Jira",
+          image: "https://imgs.search.brave.com/ewqQgNO4vCtCb3JJx_qqnZRQerZDgKA0_bssMRGAQoI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWMt/Y2RuLmF0bGFzc2lh/bi5jb20vZGFtL2pj/cjowYjkxNWU4Ny1i/YjEyLTQ3OTUtOGQ0/YS05NjZjZTYxOGYy/YzAvSmlyYSUyMFNv/ZnR3YXJlLWljb24t/Ymx1ZS5zdmc_Y2Ru/VmVyc2lvbj0xMjUy.svg"
+        },
+        {
+          name: "Postman",
+          image:
+            "https://imgs.search.brave.com/50JDDd4L1QxFtnwMrj6rn158HP4VG0qHPxVKtKvCPn4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9wb3N0bWFuLnN2/Zw.svg",
+        },
+        {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://imgs.search.brave.com/lAxwlnkHcDxoP0r1gPCuufcYNwIjUEG9Inhli0EXaEQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDEvR2l0X0xv/Z28tNzAweDcwMC5w/bmc",
         },
         {
           name: "GitHub",
@@ -152,15 +166,6 @@ export const skills = [
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
-        {
-          name: "Postman",
-          image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        },
-        {
-          name: "Jira",
-          image: "https://imgs.search.brave.com/ewqQgNO4vCtCb3JJx_qqnZRQerZDgKA0_bssMRGAQoI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWMt/Y2RuLmF0bGFzc2lh/bi5jb20vZGFtL2pj/cjowYjkxNWU4Ny1i/YjEyLTQ3OTUtOGQ0/YS05NjZjZTYxOGYy/YzAvSmlyYSUyMFNv/ZnR3YXJlLWljb24t/Ymx1ZS5zdmc_Y2Ru/VmVyc2lvbj0xMjUy.svg"
-        }
       ],
     },
 ];
@@ -169,25 +174,23 @@ export const experiences = [
   {
     id: 0,
     image: "https://imgs.search.brave.com/fyenv5op-68pvTW55lyt6QiNXeiJrngYKPtSqS3K37M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMua3VudW51LmNv/bS9tZWRpYS9wcm9k/L3Byb2ZpbGVzL2xv/Z29zL2I5ODY0ZDdm/LWZiMTItNDU2NC1i/OTBlLTdkZDViNjQy/MTMwYl8xXzY0ZGM4/NWMwZTliNzMuZ2lm.gif",
-    role: "Associate Software Engineer Trainee",
+    role: "Associate Software Engineer",
     company: "Nagarro",
     date: "Mar 2023 - Present",
-    desc: "As a DevOps trainee, I am actively engaged with various CI/CD tools and cloud platforms, leverging my knowledge to optimize software development and deployment processes. Through hands-on knowlegde in DevOps tools, I contribute to create effective workflows, ensuring seamless integration between devlopment and operations.",
+    desc: "As a DevOps Engineer, I am actively engaged with various CI/CD tools and cloud platforms, leverging my knowledge to optimize software development and deployment processes. Through hands-on knowlegde in DevOps tools, I contribute to create effective workflows, ensuring seamless integration between devlopment and operations.",
     skills: [
+      "AWS",
+      "Microsoft Azure",
       "Docker",
       "Kubernetes",
-      "Microsoft Azure",
       "Jenkins",
       "Azure Devops",
       "GitHub Actions",
       "Terraform",
       "SonarQube",
       "SonarCloud",
-      "jFrog Artifactory",
-      "Portainer",
-      "Linux",
-      "Maven",
-      "Tomcat"
+      "Artifactory",
+      "Linux"
     ],
   },
 ]
@@ -199,9 +202,9 @@ export const projects = [
     title: "Best Buy",
     date: "Dec 2023 - Jan 2024",
     description:
-      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management. User Credentials :  #Email: test.user.0123459876@gmail.com #Password: testuser@123. Admin Credentials : #Email: test.adm.0123459876@gmail.com #Password: testadmin@123 . Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
+      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management.  User Credentials :  #Email: test.user.0123459876@gmail.com #Password: testuser@123 ,  Admin Credentials : #Email: test.adm.0123459876@gmail.com #Password: testadmin@123 .  Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
     image:
-      "https://private-user-images.githubusercontent.com/93260606/301549666-eebeb565-f2cb-4feb-b6c2-f3280144d887.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4MDcxNzIsIm5iZiI6MTcwNjgwNjg3MiwicGF0aCI6Ii85MzI2MDYwNi8zMDE1NDk2NjYtZWViZWI1NjUtZjJjYi00ZmViLWI2YzItZjMyODAxNDRkODg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjAxVDE3MDExMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlMWYzNGMwNjk1MzBlOTVmYzIxNDFiMjcyMDRkYmQxNDM1Y2ZiNmMzMjE2MGNiMjZjZDZjYzc2NDAxZDc1ZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ftNRyZ4SujfSMh0NgI47aPPO6qUZ8RJpF87YxiLcVgE",
+      "https://private-user-images.githubusercontent.com/93260606/301549666-eebeb565-f2cb-4feb-b6c2-f3280144d887.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcwMzAyNTIsIm5iZiI6MTcwNzAyOTk1MiwicGF0aCI6Ii85MzI2MDYwNi8zMDE1NDk2NjYtZWViZWI1NjUtZjJjYi00ZmViLWI2YzItZjMyODAxNDRkODg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA0VDA2NTkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5YjQwY2I1OGE3MzhlZmI2OTFmNWRlNDRmYWYwYmVkYjdhN2YxMWM4NmY2MjVmMTAyMTQ4NDZmNzQ5ZjhkYTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2mrva1UuBUC9dbSr_afeLRjMCsV5uHaiGODJmhnxeI4",
     tags: [
       "MongoDB",
       "Express.js",

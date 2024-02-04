@@ -31,9 +31,9 @@ function App() {
         <HeroSection />
         <div className="appInnerWrapper">
           <Skills />
-          <WorkExp />
+          <Projects />
         </div>
-        <Projects />
+        <WorkExp />
         <div className="appInnerWrapper">
          <Education />
          <Contact />
