@@ -196,6 +196,71 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "Best Buy",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management. User Credentials :  #Email: test.user.0123459876@gmail.com #Password: testuser@123. Admin Credentials : #Email: test.adm.0123459876@gmail.com #Password: testadmin@123 . Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
+    image:
+      "https://private-user-images.githubusercontent.com/93260606/301549666-eebeb565-f2cb-4feb-b6c2-f3280144d887.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4MDcxNzIsIm5iZiI6MTcwNjgwNjg3MiwicGF0aCI6Ii85MzI2MDYwNi8zMDE1NDk2NjYtZWViZWI1NjUtZjJjYi00ZmViLWI2YzItZjMyODAxNDRkODg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjAxVDE3MDExMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlMWYzNGMwNjk1MzBlOTVmYzIxNDFiMjcyMDRkYmQxNDM1Y2ZiNmMzMjE2MGNiMjZjZDZjYzc2NDAxZDc1ZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ftNRyZ4SujfSMh0NgI47aPPO6qUZ8RJpF87YxiLcVgE",
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "React",
+      "Stripe",
+      "Tailwind CSS",
+      "Redux",
+      "JWT"
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/Best-Buy",
+    webapp: "https://best-buy-frontend-topaz.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Real-Time Code Editor",
+    date: "Mar 2023 - May 2023",
+    description:
+      "A code editor platform with functionality to onboard users to collaborate together to see and make changes in real time. The editor supports multiple secured rooms, each identified by a unique 128-bit UUID key, ensuring privacy and accessibility with non-colliding keys.  Testing the application : Generate new room via clicking on 'new room' and enter a username.",
+    image:
+      "https://user-images.githubusercontent.com/93260606/279440518-a954b709-5e92-498c-b0c0-3b542c861f01.png",
+    tags: [
+      "Socket.io",
+      "Node.js",
+      "Express.js",
+      "React",
+      "JavaScript",
+      "HTML",
+      "Sass",
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/Real-Time-Code-Editor",
+    webapp: "https://real-time-code-editor-lemon.vercel.app",
+  },
+  
+  
+  {
+    id: 2,
+    title: "Moviex",
+    date: "Sep 2023 - Sep 2023",
+    description:
+      "A movie platform with efficient Redux Toolkit state management, multiple API integrations, applied advanced techniques such as Higher-Order Components (HOC), hooks, and React libraries for features like infinite scroll and lazy loading, for optimal user experience.",
+    image:
+      "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
+    tags: [
+      "React",
+      "Redux ToolKit",
+      "JavaScript",
+      "HTML",
+      "Sass",
+      "Vercel",
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/moviex",
+    webapp: "https://moviex-sand.vercel.app",
+  },
+  {
+    id: 3,
     title: "SimpleNote",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -216,48 +281,7 @@ export const projects = [
     webapp: "https://notes-app-frontend-six.vercel.app",
   },
   {
-    id: 1,
-    title: "Moviex",
-    date: "Sep 2023 - Sep 2023",
-    description:
-      "A movie platform with efficient Redux Toolkit state management, multiple API integrations, applied advanced techniques such as Higher-Order Components (HOC), hooks, and React libraries for features like infinite scroll and lazy loading, for optimal user experience.",
-    image:
-      "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
-    tags: [
-      "React",
-      "Redux ToolKit",
-      "JavaScript",
-      "HTML",
-      "Sass",
-      "Vercel",
-    ],
-    category: "web app",
-    github: "https://github.com/logic-found/moviex",
-    webapp: "https://moviex-sand.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Real-Time Code Editor",
-    date: "Mar 2023 - May 2023",
-    description:
-      "A code editor platform with functionality to onboard users to collaborate together to see and make changes in real time. The editor supports multiple secured rooms, each identified by a unique 128-bit UUID key, ensuring privacy and accessibility with non-colliding keys.  Testing the application : Generate new room via clicking on 'new room' and enter a username.",
-    image:
-      "https://user-images.githubusercontent.com/93260606/279440518-a954b709-5e92-498c-b0c0-3b542c861f01.png",
-    tags: [
-      "Socket.io",
-      "Node.js",
-      "Express.js",
-      "React",
-      "JavaScript",
-      "HTML",
-      "Sass",
-    ],
-    category: "web app",
-    github: "https://github.com/logic-found/Real-Time-Code-Editor",
-    webapp: "https://real-time-code-editor-lac.vercel.app/",
-  },
-  {
-    id: 3,
+    id: 4,
     title: "OverCast",
     date: "Jul 2023 - Jul 2023",
     description:
@@ -272,7 +296,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/logic-found/weather-appp",
-    webapp: "https://weather-appp-lemon.vercel.app/",
+    webapp: "https://weather-appp-lemon.vercel.app",
   },
 ]
 
