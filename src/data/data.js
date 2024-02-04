@@ -108,10 +108,7 @@ export const skills = [
             name: "Azure DevOps",
             image: "https://imgs.search.brave.com/PSOmqzmK9ErXLqOi92d3ipIxpGXnW_eC-UvT5Nt41gA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xNDk3/NjU4NjEudjIucHJl/c3NhYmxlY2RuLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMS9kZXZvcHMu/cG5n"
           },
-          {
-            name: "GitHub Actions",
-            image: "https://avatars.githubusercontent.com/u/44036562?s=200&v=4"
-          },
+          
           {
               name: "Terraform",
               image: "https://imgs.search.brave.com/_9RSm4jH1pYRAk0gfv8X_WLxRHXHmOBDTIuOpquzcFs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy90ZXJyYWZvcm0t/aWNvbi5zdmc.svg"
@@ -121,11 +118,7 @@ export const skills = [
             image: "https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg"
           },
           {
-            name: "SonarCloud",
-            image: "https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png"
-          },
-          {
-            name: "jFrog Artifactory",
+            name: "Artifactory",
             image: "https://imgs.search.brave.com/0G9Ui6M3DlySxUsumAXwOPIX3N7z7v1agHx0iyh9hUM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzg0ODgyOS5wbmc"
           },
       ]
@@ -202,9 +195,9 @@ export const projects = [
     title: "Best Buy",
     date: "Dec 2023 - Jan 2024",
     description:
-      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management.  User Credentials :  #Email: test.user.0123459876@gmail.com #Password: testuser@123 ,  Admin Credentials : #Email: test.adm.0123459876@gmail.com #Password: testadmin@123 .  Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
+      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management.   User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123 ,  Admin Credentials : #Email: test.adm.0123459876@gmail.com  #Password: testadmin@123 .  Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
     image:
-      "https://private-user-images.githubusercontent.com/93260606/301549666-eebeb565-f2cb-4feb-b6c2-f3280144d887.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcwMzAyNTIsIm5iZiI6MTcwNzAyOTk1MiwicGF0aCI6Ii85MzI2MDYwNi8zMDE1NDk2NjYtZWViZWI1NjUtZjJjYi00ZmViLWI2YzItZjMyODAxNDRkODg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA0VDA2NTkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5YjQwY2I1OGE3MzhlZmI2OTFmNWRlNDRmYWYwYmVkYjdhN2YxMWM4NmY2MjVmMTAyMTQ4NDZmNzQ5ZjhkYTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2mrva1UuBUC9dbSr_afeLRjMCsV5uHaiGODJmhnxeI4",
+      "https://github.com/logic-found/Best-Buy/assets/93260606/eebeb565-f2cb-4feb-b6c2-f3280144d887",
     tags: [
       "MongoDB",
       "Express.js",
