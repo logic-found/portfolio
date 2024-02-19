@@ -24,6 +24,11 @@ export const skills = [
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         {
+          name: "Next.js",
+          image:
+            "https://imgs.search.brave.com/mSw7AeEpzJz2euE09xYD6OUMDYrBHAP5yA5u-RXT-lM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9uZXh0anMtaWNv/bi5zdmc.svg",
+        },
+        {
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -117,10 +122,6 @@ export const skills = [
             name: "SonarQube",
             image: "https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg"
           },
-          {
-            name: "Artifactory",
-            image: "https://imgs.search.brave.com/0G9Ui6M3DlySxUsumAXwOPIX3N7z7v1agHx0iyh9hUM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzg0ODgyOS5wbmc"
-          },
       ]
   },
     {
@@ -151,10 +152,6 @@ export const skills = [
             "https://cdn.worldvectorlogo.com/logos/gitlab-3.svg",
         },
         {
-          name: "Vercel",
-          image: "https://imgs.search.brave.com/s0R5Ptt-mhCBTRq_F4VctfKjzTflcxZlhf3SP3c0TWI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yZXNl/YXJjaC5jb250cmFy/eS5jb20vX25leHQv/aW1hZ2U_dXJsPWh0/dHBzOi8vaW1hZ2Vz/LnByaXNtaWMuaW8v/Y29udHJhcnktcmVz/ZWFyY2gvMGY0ZTAy/MDEtZTgyYS00MzU2/LWIxNjctZWUwNjEw/ZWM3YWQwX1ZlcmNl/bC5qcGVnP2F1dG89/Y29tcHJlc3MsZm9y/bWF0Jnc9MjU2JnE9/NzU"
-        },
-        {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -170,7 +167,7 @@ export const experiences = [
     role: "Associate Software Engineer",
     company: "Nagarro",
     date: "Mar 2023 - Present",
-    desc: "As a DevOps Engineer, I am actively engaged with various CI/CD tools and cloud platforms, leverging my knowledge to optimize software development and deployment processes. Through hands-on knowlegde in DevOps tools, I contribute to create effective workflows, ensuring seamless integration between devlopment and operations.",
+    desc: "Actively engaged with Cloud platforms and various CI/CD tools, leverging my knowledge to optimize software development and deployment processes. Through hands-on knowlegde in DevOps tools, I contribute to create effective workflows, ensuring seamless integration between devlopment and operations.",
     skills: [
       "AWS",
       "Microsoft Azure",
@@ -178,10 +175,8 @@ export const experiences = [
       "Kubernetes",
       "Jenkins",
       "Azure Devops",
-      "GitHub Actions",
       "Terraform",
       "SonarQube",
-      "Artifactory",
       "Linux"
     ],
   },
@@ -248,7 +243,6 @@ export const projects = [
       "JavaScript",
       "HTML",
       "Sass",
-      "Vercel",
     ],
     category: "web app",
     github: "https://github.com/logic-found/moviex",
@@ -285,7 +279,6 @@ export const projects = [
       "https://user-images.githubusercontent.com/93260606/279434813-ec3232d4-2aa6-4c6a-8e38-a488b4f40738.png",
     tags: [
       "JavaScript",
-      "Axios",
       "HTML",
       "Sass",
     ],
