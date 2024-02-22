@@ -100,10 +100,6 @@ export const skills = [
               name: "Docker",
               image: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
           },
-          {
-              name: "Kubernetes",
-              image: "https://imgs.search.brave.com/sUr__mxxEq0S8UI8mqveQrlJESNylliGdPYU3feFdsY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzM5L0t1YmVybmV0/ZXNfbG9nb193aXRo/b3V0X3dvcmttYXJr/LnN2Zw.svg"
-          },
           
           {
             name: "Jenkins",
@@ -172,11 +168,11 @@ export const experiences = [
       "AWS",
       "Microsoft Azure",
       "Docker",
-      "Kubernetes",
       "Jenkins",
       "Azure Devops",
       "Terraform",
       "SonarQube",
+      "Kubernetes",
       "Linux"
     ],
   },
