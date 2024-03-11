@@ -163,7 +163,7 @@ export const experiences = [
     role: "Associate Software Engineer",
     company: "Nagarro",
     date: "Mar 2023 - Present",
-    desc: "Actively engaged in contributing frontend component development and API construction, with hands-on experience in cloud platforms like AWS and Azure. Working with CI/CD tools such as Jenkins and Azure DevOps to optimize software development and deployment processes.",
+    desc: " Actively engaged in contributing frontend component development and API construction, with hands-on experience in cloud platforms like AWS and Azure. Working with CI/CD tools such as Jenkins and Azure DevOps to optimize software development and deployment processes.",
     skills: [
       "React",
       "JavaScript",
