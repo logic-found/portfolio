@@ -1,21 +1,21 @@
-### Weblink : https://rashika-sahu-portfolio.vercel.app/
+## Live App : <a href="https://rashika-sahu-portfolio.vercel.app" target="_blank">Link</a>
 
-# About
-<img width="950" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/77291aa3-c7df-4fa6-b685-85eb48c03501">
+## About
+<img width="950" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/3265ee5e-8cd5-449c-9359-b0c7244397eb">
 
-# Skills
+## Skills
 <img width="957" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/d870f9a9-5200-4db8-9a69-bbae4625195d">
 
-# Experience
+## Experience
 <img width="762" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/f5e9ff71-f330-4210-a956-50fdd1482635">
 
-# Projects
+## Projects
 <img width="950" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/1e57c93b-52ae-4977-8723-28f90e89f489">
 
-# Education 
+## Education 
 <img width="887" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/fef6b585-5354-4511-bb97-a865371dc3bb">
 
-# Contact
+## Contact
 <img width="597" alt="image" src="https://github.com/logic-found/portfolio/assets/93260606/4f7e52e1-b825-45df-8e7a-0600ebb35ee8">
 
 
