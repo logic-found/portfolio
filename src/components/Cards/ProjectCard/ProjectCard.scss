@@ -158,13 +158,14 @@
         }
 
         .projectCardButtonGroup {
+            padding-top: 10px;
             display: flex;
             gap: 10px;
-            flex-wrap: wrap;
+
 
             .projectCardBtn {
                 max-height: 35px;
-                width: 30%;
+                width: 50%;
                 text-align: center;
                 font-size: 16px;
                 font-weight: 600;
@@ -183,9 +184,10 @@
 
                 @media (max-width: 600px) {
                     font-size: 12px;
+                    justify-content: center;
                 }
             }
-
+            
             .dark {
                 border: 0.5px solid var(--text_dark);
                 background-color: var(--bgLight);
