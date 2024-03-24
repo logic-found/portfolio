@@ -2,7 +2,7 @@ export const Bio = {
     name : "Rashika Sahu",
     roles : [
         "Full Stack Developer",
-        "DevOps Engineer",
+        "Software Engineer",
         "Programmer"
     ],
     description: "",
@@ -29,14 +29,19 @@ export const skills = [
             "https://imgs.search.brave.com/mSw7AeEpzJz2euE09xYD6OUMDYrBHAP5yA5u-RXT-lM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9uZXh0anMtaWNv/bi5zdmc.svg",
         },
         {
+          name: "JavaScript",
+          image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          image:
+          "https://imgs.search.brave.com/lw6ZLjRl51GTCm7eLCRmTQOXiL9T0v8Luud_LMyvorM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9m/L2Y1L1R5cGVzY3Jp/cHQuc3Zn.svg",
+        },
+        {
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
           name: "Material UI",
@@ -114,10 +119,6 @@ export const skills = [
               name: "Terraform",
               image: "https://imgs.search.brave.com/_9RSm4jH1pYRAk0gfv8X_WLxRHXHmOBDTIuOpquzcFs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy90ZXJyYWZvcm0t/aWNvbi5zdmc.svg"
           },
-          {
-            name: "SonarQube",
-            image: "https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg"
-          },
       ]
   },
     {
@@ -168,6 +169,8 @@ export const experiences = [
       "React",
       "JavaScript",
       "Node.js",
+      "Express.js",
+      "MongoDB",
       "AWS",
       "Microsoft Azure",
       "Docker",
@@ -187,23 +190,47 @@ export const projects = [
     description:
       "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management.   User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123 ,  Admin Credentials : #Email: test.adm.0123459876@gmail.com  #Password: testadmin@123 .  Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
     image:
-      "https://github.com/logic-found/Best-Buy/assets/93260606/eebeb565-f2cb-4feb-b6c2-f3280144d887",
+      "https://raw.githubusercontent.com/logic-found/Best-Buy/main/image.png",
     tags: [
-      "MongoDB",
-      "Express.js",
-      "Node.js",
       "React",
-      "Stripe",
-      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
       "Redux",
-      "JWT"
+      "Stripe",
+      "Cloudinary",
+      "Tailwind CSS",
+      "JWT",
     ],
     category: "web app",
     github: "https://github.com/logic-found/Best-Buy",
     webapp: "https://best-buy-frontend-topaz.vercel.app",
+    demo : "https://drive.google.com/file/d/11qXYFyH4JWadc-iHrwF9za3U3rUPCRmE/view?usp=drive_link"
   },
+  
+  
   {
     id: 1,
+    title: "Moviex",
+    date: "Sep 2023 - Sep 2023",
+    description:
+    "A movie platform with efficient Redux Toolkit state management, multiple API integrations, applied advanced techniques such as Higher-Order Components (HOC), hooks, and React libraries for features like infinite scroll and lazy loading, for optimal user experience.",
+    image:
+    "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
+    tags: [
+      "React",
+      "Redux ToolKit",
+      "JavaScript",
+      "HTML",
+      "Sass",
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/moviex",
+    webapp: "https://moviex-sand.vercel.app",
+    demo : "https://drive.google.com/file/d/1avPDmZo8jx2m46NeZGIydt9728nyRPGi/view?usp=drive_link"
+  },
+  {
+    id: 2,
     title: "Real-Time Code Editor",
     date: "Mar 2023 - May 2023",
     description:
@@ -222,27 +249,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/logic-found/Real-Time-Code-Editor",
     webapp: "https://real-time-code-editor-lemon.vercel.app",
-  },
-  
-  
-  {
-    id: 2,
-    title: "Moviex",
-    date: "Sep 2023 - Sep 2023",
-    description:
-      "A movie platform with efficient Redux Toolkit state management, multiple API integrations, applied advanced techniques such as Higher-Order Components (HOC), hooks, and React libraries for features like infinite scroll and lazy loading, for optimal user experience.",
-    image:
-      "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
-    tags: [
-      "React",
-      "Redux ToolKit",
-      "JavaScript",
-      "HTML",
-      "Sass",
-    ],
-    category: "web app",
-    github: "https://github.com/logic-found/moviex",
-    webapp: "https://moviex-sand.vercel.app",
+    demo : "https://drive.google.com/file/d/1gzHPKstKHEYqangZCSfCWrURgrnYYOQU/view?usp=drive_link"
   },
   {
     id: 3,

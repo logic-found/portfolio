@@ -132,13 +132,15 @@
                 font-size: 12px;
                 }
             }
-            .viewCode {
+            .dark {
+                border: 0.5px solid var(--text_dark);
+                
                 background-color: var(--bgLight);
                 &:hover {
                 filter: brightness(0.8);
                 }
             }
-            .viewApp {
+            .light {
                 background-color: var(--primary);
             }
         }

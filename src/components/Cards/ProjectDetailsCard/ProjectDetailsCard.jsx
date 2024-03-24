@@ -28,7 +28,7 @@ const ProjectDetailsCard = ({ project, setOpenProjectDetails }) => {
             </div>
             <div className="projectCardDetailsContent">
               <div className="projectCardDetailsTitle">{project.title}</div>
-              <div className="projectCardDetailsDate">{project.date}</div>
+              {/* <div className="projectCardDetailsDate">{project.date}</div> */}
               <div className="projectCardDetailsDesc">
                 {project.description}
               </div>
@@ -36,16 +36,24 @@ const ProjectDetailsCard = ({ project, setOpenProjectDetails }) => {
             <div className="projectDetailsCardButtonGroup">
               <button
                 onClick={() => window.open(project?.github)}
-                className="projectDetailsCardBtn viewCode"
+                className="projectDetailsCardBtn dark"
               >
-                View Code
+                Code
               </button>
               <button
                 onClick={() => window.open(project?.webapp)}
-                className="projectDetailsCardBtn viewApp"
+                className="projectDetailsCardBtn light"
               >
-                View Live App
+                Live
               </button>
+              {project.demo && (
+                        <button
+                            onClick={() => window.open(project.webapp)}
+                            className="projectDetailsCardBtn dark"
+                        >
+                            Demo
+                        </button>
+                    )}
             </div>
           
         </div>
