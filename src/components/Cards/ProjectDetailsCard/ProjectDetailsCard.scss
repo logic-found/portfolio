@@ -14,7 +14,7 @@
 
   .projectDetailsCardWrapper {
     max-width: 800px;
-    width: 100%;
+    width: 95%;
     border-radius: 16px;
     margin: 50px 12px;
     height: min-content;
@@ -55,7 +55,6 @@
 
             .projectCardDetailsTag {
                 font-size: 14px;
-                font-weight: 400;
                 background-color: rgba(#854ce6, 0.1);
                 margin: 4px;
                 padding: 4px 8px;
@@ -76,7 +75,7 @@
             max-width: 100%;
         
             .projectCardDetailsTitle {
-                font-size: 28px;
+                font-size: 22px;
                 font-weight: 600;
                 display: -webkit-box;
                 max-width: 100%;
@@ -95,9 +94,12 @@
                 }
             }
             .projectCardDetailsDesc {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 400;
                 margin: 8px 6px;
+                // display: flex;
+                // flex-direction: column;
+                // gap:5px;
         
                 @media (max-width: 600px) {
                 font-size: 14px;
@@ -114,7 +116,7 @@
             .projectDetailsCardBtn {
                 width: 100%;
                 text-align: center;
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 600;
                 color: var(--text_primary);
                 padding: 12px 16px;

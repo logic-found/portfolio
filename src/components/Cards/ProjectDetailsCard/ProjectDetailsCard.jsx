@@ -30,7 +30,7 @@ const ProjectDetailsCard = ({ project, setOpenProjectDetails }) => {
               <div className="projectCardDetailsTitle">{project.title}</div>
               {/* <div className="projectCardDetailsDate">{project.date}</div> */}
               <div className="projectCardDetailsDesc">
-                {project.description}
+              {project.description.map((line) => <p>{line}</p>)}
               </div>
             </div>
             <div className="projectDetailsCardButtonGroup">

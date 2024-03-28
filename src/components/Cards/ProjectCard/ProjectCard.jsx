@@ -18,9 +18,9 @@ const ProjectCard = ({ project, setOpenProjectDetails }) => {
                         <div className="projectCardTag">{tag}</div>
                     ))}
                 </div>
-                <div className="projectCardDesc">{project.description}</div>
+                <div className="projectCardDesc">{project.description.map((line) => <p>{line}</p>)}</div>
 
-                <div className="projectCardButtonGroup">
+                {/* <div className="projectCardButtonGroup">
                     <button
                         onClick={() => window.open(project.github)}
                         className="projectCardBtn dark"
@@ -41,7 +41,7 @@ const ProjectCard = ({ project, setOpenProjectDetails }) => {
                             Demo
                         </button>
                     )}
-                </div>
+                </div> */}
             </div>
             <div className="projectCardImg">
             <img src={project.image} alt="" className="" />

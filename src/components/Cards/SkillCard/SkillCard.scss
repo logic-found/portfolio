@@ -32,7 +32,7 @@
   }
 
   .skillTitle {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--text_secondary);
     //margin-bottom: 20px;
@@ -61,13 +61,12 @@
     //---------------------
 
     .skillItem {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
       color: var(--text_primary);
       border: 1px solid var(--text_secondary);
       border-radius: 12px;
-      padding: 12px;
-      //padding: 12px 16px;
+      padding: 10px;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -164,7 +164,7 @@ export const experiences = [
     role: "Associate Software Engineer",
     company: "Nagarro",
     date: "Mar 2023 - Present",
-    desc: " Actively engaged in contributing frontend component development and API construction, with hands-on experience in cloud platforms like AWS and Azure. Working with CI/CD tools such as Jenkins and Azure DevOps to optimize software development and deployment processes.",
+    desc: " Actively engaged in developing UI components, state management of the application, API development, maintaining the flow of data from backend to frontend. With hands-on experience in cloud platforms. Working with CI/CD tools to optimize software development and deployment processes.",
     skills: [
       "React",
       "JavaScript",
@@ -187,8 +187,12 @@ export const projects = [
     id: 0,
     title: "Best Buy",
     date: "Dec 2023 - Jan 2024",
-    description:
-      "An Ecommerce Application with features including: Product Filtration, Sorting, Pagination, Seamless Cart & Order with COD and Online Payment with Stripe, User Profiles with Password Recovery, and Admin Dashboard for Efficient Management.   User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123 ,  Admin Credentials : #Email: test.adm.0123459876@gmail.com  #Password: testadmin@123 .  Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
+    description:[
+      "Developed an e-commerce platform with features including Product Filtration, Sorting, and Pagination. Integrated a secure order system supporting COD and Stripe payments. Designed an intuitive Admin Dashboard for efficient management. Developed User Profiles, password recovery and mobile responsiveness for enhanced user experience.",
+      "User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123",
+      "Admin Credentials : #Email: test.adm.0123459876@gmail.com  #Password: testadmin@123",
+      "Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
+    ],
     image:
       "https://raw.githubusercontent.com/logic-found/Best-Buy/main/image.png",
     tags: [
@@ -214,7 +218,7 @@ export const projects = [
     title: "Moviex",
     date: "Sep 2023 - Sep 2023",
     description:
-    "A movie platform with efficient Redux Toolkit state management, multiple API integrations, applied advanced techniques such as Higher-Order Components (HOC), hooks, and React libraries for features like infinite scroll and lazy loading, for optimal user experience.",
+    ["Developed a movie database app leveraging the TMDB API to deliver movie and TV show listings with advance filtration, sorting, and search functionality. Designed an infinite scroll feature for effortless exploration, ensuring a user-friendly entertainment experience that is fully mobile responsive."],
     image:
     "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
     tags: [
@@ -234,14 +238,14 @@ export const projects = [
     title: "Real-Time Code Editor",
     date: "Mar 2023 - May 2023",
     description:
-      "A code editor platform with functionality to onboard users to collaborate together to see and make changes in real time. The editor supports multiple secured rooms, each identified by a unique 128-bit UUID key, ensuring privacy and accessibility with non-colliding keys.  Testing the application : Generate new room via clicking on 'new room' and enter a username.",
+      ["Developed a code editor platform enabling seamless collaboration among users in real-time. Developed functionality to onboard users, facilitating simultaneous viewing and editing. Implemented support for multiple secured rooms, each distinguished by a unique 128-bit UUID key, ensuring privacy and accessibility with non-colliding keys."],
     image:
       "https://user-images.githubusercontent.com/93260606/279440518-a954b709-5e92-498c-b0c0-3b542c861f01.png",
     tags: [
       "Socket.io",
+      "React",
       "Node.js",
       "Express.js",
-      "React",
       "JavaScript",
       "HTML",
       "Sass",
@@ -256,14 +260,14 @@ export const projects = [
     title: "SimpleNote",
     date: "Oct 2023 - Nov 2023",
     description:
-      "A MERN-based notes web app that has the functionality to Login & register users with JWT for authentication, Bcrypt is used for password hashing. Allows user to perform all CRUD operations to Create, Update & Delete their notes. The app features a responsive UI for a seamless user experience across all devices.",
+      ["Developed a notes application with capabilities for creating, updating, and deleting notes. Integrated user authentication using JWT and bcrypt for enhanced security. Designed a responsive UI for enhanced user experience."],
     image:
       "https://user-images.githubusercontent.com/93260606/284087118-d8a94c1f-f2ac-4410-8075-b2f04006c798.png",
     tags: [
-      "MongoDB",
-      "Express.js",
-      "Node.js",
       "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
       "Mongoose",
       "Redux",
       "JWT",
@@ -277,7 +281,7 @@ export const projects = [
     title: "OverCast",
     date: "Jul 2023 - Jul 2023",
     description:
-      "A web application that showcases the weather of a particular city entered by the user, made responsive user interface for seamless experience across all devices.",
+      ["Developed a web application displaying the weather of user-specified cities, providing real-time updates. Designed a responsive user interface ensuring seamless user experience across all devices."],
     image:
       "https://user-images.githubusercontent.com/93260606/279434813-ec3232d4-2aa6-4c6a-8e38-a488b4f40738.png",
     tags: [

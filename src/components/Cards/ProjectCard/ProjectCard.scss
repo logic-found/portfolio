@@ -1,14 +1,14 @@
 .projectCard {
-    width: 590px;
-    height: 330px;
+    width: 500px;
+    height: 295px;
     background-color: var(--card);
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
-    padding: 25px 0px 25px 12px;
+    padding: 20px 0px 20px 12px;
     display: flex;
-    gap: 15px;
+    gap: 12px;
     transition: all 1s ease;
     margin-top: 30px;
 
@@ -106,7 +106,7 @@
 
 
         .projectCardTitle {
-            font-size: 25px;
+            font-size: 22px;
             font-weight: 600;
             display: -webkit-box;
 
@@ -117,7 +117,7 @@
         }
 
         .projectCardDate {
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 400;
 
             @media (max-width: 768px) {
@@ -145,14 +145,14 @@
         }
 
         .projectCardDesc {
-            font-weight: 400;
+            font-size: 14px;
             display: -webkit-box;
-            -webkit-line-clamp: 4;
+            -webkit-line-clamp: 6;
             -webkit-box-orient: vertical;
             overflow: hidden;
 
             @media (max-width: 900px) {
-                -webkit-line-clamp: 3;
+                -webkit-line-clamp: 6;
 
             }
         }
