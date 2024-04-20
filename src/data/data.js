@@ -280,26 +280,26 @@ export const projects = [
     webapp: "https://real-time-code-editor-lemon.vercel.app",
     demo : "https://drive.google.com/file/d/1gzHPKstKHEYqangZCSfCWrURgrnYYOQU/view?usp=drive_link"
   },
-  {
-    id: 4,
-    title: "SimpleNote",
-    date: "Oct 2023 - Nov 2023",
-    description:
-      ["Developed a notes application with capabilities for creating, updating, and deleting notes. Integrated user authentication using JWT and bcrypt for enhanced security. Designed a responsive UI for enhanced user experience."],
-    image:
-      "https://user-images.githubusercontent.com/93260606/284087118-d8a94c1f-f2ac-4410-8075-b2f04006c798.png",
-    tags: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Redux Toolkit",
-      "JWT",
-    ],
-    category: "web app",
-    github: "https://github.com/logic-found/SimpleNote",
-    webapp: "https://notes-app-frontend-six.vercel.app",
-  },
+  // {
+  //   id: 4,
+  //   title: "SimpleNote",
+  //   date: "Oct 2023 - Nov 2023",
+  //   description:
+  //     ["Developed a notes application with capabilities for creating, updating, and deleting notes. Integrated user authentication using JWT and bcrypt for enhanced security. Designed a responsive UI for enhanced user experience."],
+  //   image:
+  //     "https://user-images.githubusercontent.com/93260606/284087118-d8a94c1f-f2ac-4410-8075-b2f04006c798.png",
+  //   tags: [
+  //     "React",
+  //     "Node.js",
+  //     "Express.js",
+  //     "MongoDB",
+  //     "Redux Toolkit",
+  //     "JWT",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/logic-found/SimpleNote",
+  //   webapp: "https://notes-app-frontend-six.vercel.app",
+  // },
   {
     id: 5,
     title: "OverCast",
