@@ -134,6 +134,11 @@ export const skills = [
             "https://imgs.search.brave.com/50JDDd4L1QxFtnwMrj6rn158HP4VG0qHPxVKtKvCPn4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9wb3N0bWFuLnN2/Zw.svg",
         },
         {
+          name: "Linux",
+          image:
+            "https://imgs.search.brave.com/Oy_1VmfIo_2aokAJ7aSFA0mkdl_9CayA9bfY47256oY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzAz/L0xJTlVYLUxPR08t/NDUzeDUwMC5wbmc",
+        },
+        {
           name: "Git",
           image:
             "https://imgs.search.brave.com/lAxwlnkHcDxoP0r1gPCuufcYNwIjUEG9Inhli0EXaEQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDEvR2l0X0xv/Z28tNzAweDcwMC5w/bmc",
@@ -167,15 +172,17 @@ export const experiences = [
     desc: " Actively engaged in developing UI components, state management of the application, API development, maintaining the flow of data from backend to frontend. With hands-on experience in cloud platforms. Working with CI/CD tools to optimize software development and deployment processes.",
     skills: [
       "React",
+      "Next.js",
       "JavaScript",
+      "TypeScript",
       "Node.js",
       "Express.js",
       "MongoDB",
       "AWS",
       "Microsoft Azure",
-      "Docker",
       "Jenkins",
       "Azure Devops",
+      "Docker",
       "Linux"
     ],
   },
@@ -185,8 +192,29 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "VidChill",
+    date: "Apr 2023 - Apr 2024",
+    description:[
+      "A video streaming application inspired by YouTube, where users can watch videos, explore content with optimised search suggestions, and Infinite Scroll feature allowing users to effortlessly browse through an endless stream of content. Designed an N-level nested comment section to let user delve deep into discussions. Integrated Live Chat feature for real-time interaction, with auto-scroll and optimized storage for seamless user experience."
+    ],
+    image:
+      "https://github.com/logic-found/VidChill/assets/93260606/cc83f488-a2d9-47fb-9c2f-bb3c51483f8e",
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Youtube Data APIs",
+    ],
+    category: "web app",
+    github: "https://github.com/logic-found/VidChill",
+    webapp: "https://vid-chill-gilt.vercel.app",
+    demo : "https://drive.google.com/file/d/1KL6MkIedSmx92JYWbF6cW6Ul8cEHJbtU/view"
+  },
+  {
+    id: 1,
     title: "Best Buy",
-    date: "Dec 2023 - Jan 2024",
+    date: "Dec 2023 - Feb 2024",
     description:[
       "Developed an e-commerce platform with features including Product Filtration, Sorting, and Pagination. Integrated a secure order system supporting COD and Stripe payments. Designed an intuitive Admin Dashboard for efficient management. Developed User Profiles, password recovery and mobile responsiveness for enhanced user experience.",
       "User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123",
@@ -200,21 +228,19 @@ export const projects = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Redux",
+      "Redux Toolkit",
+      "JWT",
       "Stripe",
       "Cloudinary",
       "Tailwind CSS",
-      "JWT",
     ],
     category: "web app",
     github: "https://github.com/logic-found/Best-Buy",
     webapp: "https://best-buy-frontend-topaz.vercel.app",
     demo : "https://drive.google.com/file/d/11qXYFyH4JWadc-iHrwF9za3U3rUPCRmE/view?usp=drive_link"
   },
-  
-  
   {
-    id: 1,
+    id: 2,
     title: "Moviex",
     date: "Sep 2023 - Sep 2023",
     description:
@@ -234,7 +260,7 @@ export const projects = [
     demo : "https://drive.google.com/file/d/1avPDmZo8jx2m46NeZGIydt9728nyRPGi/view?usp=drive_link"
   },
   {
-    id: 2,
+    id: 3,
     title: "Real-Time Code Editor",
     date: "Mar 2023 - May 2023",
     description:
@@ -247,7 +273,6 @@ export const projects = [
       "Node.js",
       "Express.js",
       "JavaScript",
-      "HTML",
       "Sass",
     ],
     category: "web app",
@@ -256,7 +281,7 @@ export const projects = [
     demo : "https://drive.google.com/file/d/1gzHPKstKHEYqangZCSfCWrURgrnYYOQU/view?usp=drive_link"
   },
   {
-    id: 3,
+    id: 4,
     title: "SimpleNote",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -268,8 +293,7 @@ export const projects = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Mongoose",
-      "Redux",
+      "Redux Toolkit",
       "JWT",
     ],
     category: "web app",
@@ -277,7 +301,7 @@ export const projects = [
     webapp: "https://notes-app-frontend-six.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "OverCast",
     date: "Jul 2023 - Jul 2023",
     description:
