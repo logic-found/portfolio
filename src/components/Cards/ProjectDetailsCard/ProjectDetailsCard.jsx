@@ -48,7 +48,7 @@ const ProjectDetailsCard = ({ project, setOpenProjectDetails }) => {
               </button>
               {project.demo && (
                         <button
-                            onClick={() => window.open(project.webapp)}
+                            onClick={() => window.open(project.demo)}
                             className="projectDetailsCardBtn dark"
                         >
                             Demo
