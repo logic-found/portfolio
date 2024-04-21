@@ -220,13 +220,14 @@ export const projects = [
     title: "Best Buy",
     date: "Dec 2023 - Feb 2024",
     description:[
-      "Developed an e-commerce platform with features including Product Filtration, Sorting, and Pagination. Integrated a secure order system supporting COD and Stripe payments. Designed an intuitive Admin Dashboard for efficient management. Developed User Profiles, password recovery and mobile responsiveness for enhanced user experience.",
+      "Developed an e-commerce platform with features including Product Filtration, Sorting, and Pagination. Integrated a secure order system offering both COD and Stripe payment options for enhanced transaction security and flexibility.",
+      "Designed an intuitive Admin Dashboard enabling efficient inventory tracking, order processing, and user management. Developed User Profiles, password recovery and mobile responsiveness for enhanced user experience.",
       "User Credentials :  #Email: test.user.0123459876@gmail.com  #Password: testuser@123",
       "Admin Credentials : #Email: test.adm.0123459876@gmail.com  #Password: testadmin@123",
       "Card used for Stripe Payment : 4000003560000008 | 4000003560000123 ",
     ],
     image:
-      "https://raw.githubusercontent.com/logic-found/Best-Buy/main/image.png",
+      "https://private-user-images.githubusercontent.com/93260606/324260631-72cb1231-187d-4bc7-9aab-49625222d60f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MTYxMzgsIm5iZiI6MTcxMzcxNTgzOCwicGF0aCI6Ii85MzI2MDYwNi8zMjQyNjA2MzEtNzJjYjEyMzEtMTg3ZC00YmM3LTlhYWItNDk2MjUyMjJkNjBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDE2MTAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhNzI3M2Y4Mzg2ZWNiMjAwYTQxYjUyY2Q4MzEwNDcxMzgwYzllNmUyNTMxZTQ1MzY1N2RhMmM2NDZlYzZhODcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Rq9KbXqbZYp23YtMyTvwCdmWH9JKcNSuG3EE0-m2wZM",
     tags: [
       "React",
       "Node.js",
@@ -248,7 +249,8 @@ export const projects = [
     title: "Moviex",
     date: "Sep 2023 - Sep 2023",
     description:
-    ["Developed a movie database app leveraging the TMDB API to deliver movie and TV show listings with advance filtration, sorting, and search functionality. Designed an infinite scroll feature for effortless exploration, ensuring a user-friendly entertainment experience that is fully mobile responsive."],
+    ["Developed a movie database app leveraging the TMDB API to deliver movie and TV show listings with advance filtration, sorting, and search functionality.",
+    "Designed an infinite scroll feature for effortless exploration, ensuring a user-friendly entertainment experience that is fully mobile responsive."],
     image:
     "https://user-images.githubusercontent.com/93260606/279436792-b9dff860-9eab-4706-950b-7cb5fe47b013.png",
     tags: [
