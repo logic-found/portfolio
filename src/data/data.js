@@ -195,7 +195,11 @@ export const projects = [
     title: "VidChill",
     date: "Apr 2023 - Apr 2024",
     description:[
-      "A video streaming application inspired by YouTube, where users can watch videos, explore content with optimised search suggestions, and Infinite Scroll feature allowing users to effortlessly browse through an endless stream of content. Designed an N-level nested comment section to let user delve deep into discussions. Integrated Live Chat feature for real-time interaction, with auto-scroll and optimized storage for seamless user experience."
+      "A video streaming application inspired by YouTube, where users can watch videos, and explore the content with optimized search suggestions.", 
+      "N-level nested comment section to let users delve deep into discussions.", 
+      "Live Chat feature for real-time interaction, with auto-scroll and optimized storage capabilities.", 
+      "Infinite Scroll feature allows users to effortlessly browse through an endless stream of content.", 
+      "Shimmer UI and Responsive Design for better user experience."
     ],
     image:
       "https://github.com/logic-found/VidChill/assets/93260606/cc83f488-a2d9-47fb-9c2f-bb3c51483f8e",
