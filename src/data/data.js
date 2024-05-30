@@ -172,7 +172,7 @@ export const experiences = [
     role: "Associate Software Engineer",
     company: "Nagarro",
     date: "Mar 2023 - Present",
-    desc: " Actively engaged in developing UI components, state management of the application, API development, maintaining the flow of data from backend to frontend. With hands-on experience in cloud platforms. Working with CI/CD tools to optimize software development and deployment processes.",
+    desc: " Actively engaged in developing UI components, state management, optimization and security of the application. API development, maintaining the flow of data from backend to frontend, querying the databse. With hands-on experience in cloud platforms. Working with CI/CD tools to optimize software development and deployment processes.",
     skills: [
       "React",
       "Next.js",
@@ -181,9 +181,7 @@ export const experiences = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "AWS",
       "Microsoft Azure",
-      "Jenkins",
       "Azure Devops",
       "Docker",
       "Linux"
