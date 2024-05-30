@@ -182,7 +182,7 @@ export const experiences = [
       "Express.js",
       "MongoDB",
       "Microsoft Azure",
-      "Azure Devops",
+      "CI/CD",
       "Docker",
       "Linux"
     ],
