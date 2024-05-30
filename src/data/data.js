@@ -93,10 +93,10 @@ export const skills = [
     {
       title: "DevOps",
       skills: [
-          {
-              name: "AWS",
-              image: "https://imgs.search.brave.com/7oeGsrL4dvFxaJETcut1tqHxgfsoiZvN7amgrq7hCUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDgvQW1hem9uLVdl/Yi1TZXJ2aWNlcy1B/V1MtTG9nby03MDB4/Mzk0LnBuZw"
-          },
+          // {
+          //     name: "AWS",
+          //     image: "https://imgs.search.brave.com/7oeGsrL4dvFxaJETcut1tqHxgfsoiZvN7amgrq7hCUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDgvQW1hem9uLVdl/Yi1TZXJ2aWNlcy1B/V1MtTG9nby03MDB4/Mzk0LnBuZw"
+          // },
           {
             name: "Microsoft Azure",
             image: "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png"
@@ -105,14 +105,17 @@ export const skills = [
               name: "Docker",
               image: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
           },
-          
-          {
-            name: "Jenkins",
-            image: "https://imgs.search.brave.com/GJT8RT3i4ri73aYJTWykQfinOV1GGMo0GDD0CYmcQXo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/OTkvUE5HLzUxMi9q/ZW5raW5zX2xvZ29f/aWNvbl8xNzA1NTIu/cG5n"
-          },
+          // {
+          //   name: "Jenkins",
+          //   image: "https://imgs.search.brave.com/GJT8RT3i4ri73aYJTWykQfinOV1GGMo0GDD0CYmcQXo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/OTkvUE5HLzUxMi9q/ZW5raW5zX2xvZ29f/aWNvbl8xNzA1NTIu/cG5n"
+          // },
           {
             name: "Azure DevOps",
             image: "https://imgs.search.brave.com/PSOmqzmK9ErXLqOi92d3ipIxpGXnW_eC-UvT5Nt41gA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xNDk3/NjU4NjEudjIucHJl/c3NhYmxlY2RuLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMS9kZXZvcHMu/cG5n"
+          },
+          {
+            name: "Kubernetes",
+            image: "https://imgs.search.brave.com/g-7KZGEY54i6D1QgW0gs0jkiy9yjh7gVJ3cm3g4xDas/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzMz/ZjY4L3N0eWxlcy9j/b21tdW5pdHlJY29u/X28zdG9jNmVheWli/YjEucG5n"
           },
           
           {
